@@ -39,7 +39,6 @@ tj.listen(function(msg) {
     	return tj.speak(" It is a pleasure to have you here today. I hope you enjoy all the amazing things that we do here at the American Space.");
 			});
     }
-    tj.wave()
 
     if (containsMaj || containsSantiago || containsTj){
 
@@ -48,7 +47,6 @@ tj.listen(function(msg) {
 			});
 
     }
-    tj.wave()
 });
 
 
