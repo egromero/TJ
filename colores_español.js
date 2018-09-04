@@ -1,4 +1,7 @@
+//Credenciales si es que falló IBM;
 
+// user = "32527649-6a13-4aa2-a02a-a1747255c6cc"
+// pass = "qqHIJalqUWQ2"
 
 var TJBot = require('tjbot');
 var config = require('./config');
@@ -29,7 +32,7 @@ console.log("Entiendo muchos colores, pero por ahora en español solo entidneo [
 
 // uncomment to see the full list of colors TJ understands
 console.log("si quieres mas colores, puedes decirlos en ingles, como por ejemplo poner la luz orange:");
-console.log(tjColors.join(", "));
+//console.log(tjColors.join(", "));
 
 // hash map to easily test if TJ understands a color, e.g. {'red': 1, 'green': 1, 'blue': 1}
 var colors = {};
